@@ -1,12 +1,7 @@
-import { useState, useEffect } from "react";
 import { Dashboard } from "./Dashboard";
 import { ProfileDrawer } from "./ProfileDrawer";
 import { LendMoneyModal } from "./LendMoneyModal";
 import { HeartHubModal } from "./HeartHubModal";
-import { Profile, Transaction, Notification, Mission, Badge, HeartGift } from "./types";
-import { addHours, format, subDays, isSameDay } from "date-fns";
-import { motion, AnimatePresence } from "motion/react";
-import { CheckCircle2, LogIn, Heart, Sparkles, Bell, X } from "lucide-react";
 import { Logo } from "./Logo";
 import { HandshakeBounce } from "./HandshakeBounce";
 import { cn } from "./utils";
