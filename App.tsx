@@ -1,15 +1,15 @@
 import { useState, useEffect } from "react";
-import { Dashboard } from "./components/Dashboard";
-import { ProfileDrawer } from "./components/ProfileDrawer";
-import { LendMoneyModal } from "./components/LendMoneyModal";
-import { HeartHubModal } from "./components/HeartHubModal";
+import { Dashboard } from "./Dashboard";
+import { ProfileDrawer } from "./ProfileDrawer";
+import { LendMoneyModal } from "./LendMoneyModal";
+import { HeartHubModal } from "./HeartHubModal";
 import { Profile, Transaction, Notification, Mission, Badge, HeartGift } from "./types";
 import { addHours, format, subDays, isSameDay } from "date-fns";
 import { motion, AnimatePresence } from "motion/react";
 import { CheckCircle2, LogIn, Heart, Sparkles, Bell, X } from "lucide-react";
-import { Logo } from "./components/ui/Logo";
-import { HandshakeBounce } from "./components/ui/HandshakeBounce";
-import { cn } from "./lib/utils";
+import { Logo } from "./Logo";
+import { HandshakeBounce } from "./HandshakeBounce";
+import { cn } from "./utils";
 
 // Mock Data
 const MOCK_PROFILE: Profile = {
